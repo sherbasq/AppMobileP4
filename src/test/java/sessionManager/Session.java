@@ -5,6 +5,7 @@ import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 
 import java.net.MalformedURLException;
+import java.util.concurrent.TimeUnit;
 
 public class Session {
     private static Session session=null;
